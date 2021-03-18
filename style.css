@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Medium.ttf') format('truetype');
+}
+
+.nema {
+    display: none;
+}
+
+.centar {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.tableStil {
+    margin: auto;
+    width: 100%;
+}
+
+form {
+    padding: 50px;
+    width: 30%;
+    margin: auto;
+   background-image: linear-gradient(402deg, rgb(53, 53, 53) 25%, rgb(154 154 154) 51%, rgb(53, 53, 53) 74%);
+    /* background-color: rgb(53, 53, 53);*/
+}
+
+
+div h3 {
+    margin-bottom: 15px;
+}
+
+.screen {
+    width: 100%;
+    height: 38px;
+    font-size: 25px;
+    background-color: #4e0000;
+    color: rgb(225, 0, 0);
+    text-shadow: 2px 2px 3px rgb(255, 0, 0);
+    text-align: right;
+}
+
+form tr td {
+    padding: 14px;
+}
+
+form table tr th {
+    color: rgb(255, 254, 248);
+    font-family: 'Roboto';
+    text-align: left;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+form table tr th p {
+    font-size: 10px;
+    margin-left: 11px;
+}
+.logo{
+    width: 31px;
+    height: 7px;
+    margin-top: 5px;
+}
+/*color btn*/
+#colorF {
+    background-color: rgb(255, 255, 255, 0.4);
+    width: 26px;
+    height: 14px;
+    border: 1px solid rgb(211, 211, 211, 0.3);
+   /* padding: 5px; */
+    margin: 5px; 
+    cursor: pointer;
+}
+#colorF:active {
+    background-color: #960000;
+    color: rgb(230, 230, 230);
+    box-shadow: 0 1px rgb(110, 0, 0);
+    transform: translateY(1px);
+    transition: 0.1s;
+}
+/* ************************************** */
+#colorT {
+    background-color: rgb(255, 255, 255, 0.4);
+    width: 26px;
+    height: 14px;
+    border: 1px solid rgb(211, 211, 211, 0.3);
+    margin: 5px;
+    cursor: pointer;
+}
+#colorT:active {
+    background-color: #960000;
+    color: rgb(230, 230, 230);
+    box-shadow: 0 1px rgb(110, 0, 0);
+    transform: translateY(1px);
+    transition: 0.1s;
+}
+.btn{
+    width: 16px;
+    height: 16px;
+    margin: 4px;
+}
+
+

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="style/css" href="Roboto-Medium.ttf">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="buttonGO.css">
+    <link rel="stylesheet" href="buttonBR.css">
+    <link rel="stylesheet" href="buttonZ.css">
+    <link rel="stylesheet" href="buttonF.css">
+    <link rel="stylesheet" href="buttonM.css">
+    <title>Kalkulator DS</title>
+</head>
+
+<body>
+
+    <div class="centar">
+        <h3>KALKULATOR</h3>
+<!-- ON OFF calculator -->
+        <button onclick="prikazi()" class="button">ON / OFF</button>    
+    </div>
+    <form id="ima" class="nema" action="" name="forma">
+<!-- TABLE calculator -->
+        <table border="2" class="tableStil">
+            <tr>
+                <td>
+                    <input type="text" id="screen" name="screen" class="screen"><br>
+                </td>
+            </tr>
+            <th>DIGITRON BUJE DB-812</th>
+            <tr>
+                <th>
+                    <img src="images.png" alt="rgb" class="logo">
+<!--BACKGROUND calculator -->
+                    <label for="colorF">
+                        <p>background</p>
+                    </label>
+                    <input type="color" id="colorF">
+                </th>
+            </tr>
+<!--CALCULATE calculator -->
+            <tr>
+                <td>
+                    <input type="button" value=" c " name="c" onclick="brisi('c')" class="buttonF">
+                    <input type="button" value=" x² " name="x2" onclick="kvadrat()" class="buttonF">
+                    <input type="button" value=" xʸ " name="xy" onclick="update('**')" class="buttonF">
+                    <input type="button" value=" x! " name="x!" onclick="fac()" class="buttonF">
+
+                    <input type="button" value=" x³ " name="x3" onclick="kub()" class="buttonF">
+                    <input type="button" value=" √x " name="kor" onclick="kor2()" class="buttonF">
+                    <input type="button" value="³√x " name="x3" onclick="kor3()" class="buttonF">
+                    <input type="button" value=" π " name="pp" onclick="onopp()" class="buttonF">
+
+                    <input type="button" value=" 1 " name="1" onclick="update(1)" class="buttonB">
+                    <input type="button" value=" 2 " name="2" onclick="update(2)" class="buttonB">
+                    <input type="button" value=" 3 " name="3" onclick="update(3)" class="buttonB">
+                    <input type="button" value=" : " name="pod" onclick="update('/')" class="buttonM">
+
+                    <input type="button" value=" 4 " name="4" onclick="update(4)" class="buttonB">
+                    <input type="button" value=" 5 " name="5" onclick="update(5)" class="buttonB">
+                    <input type="button" value=" 6 " name="6" onclick="update(6)" class="buttonB">
+                    <input type="button" value=" * " name="*" onclick="update('*')" class="buttonM">
+
+                    <input type="button" value=" 7 " name="7" onclick="update(7)" class="buttonB">
+                    <input type="button" value=" 8 " name="8" onclick="update(8)" class="buttonB">
+                    <input type="button" value=" 9 " name="9" onclick="update(9)" class="buttonB">
+                    <input type="button" value=" - " name="-" onclick="update('-')" class="buttonM">
+
+                    <input type="button" value=" °c " name="fc" onclick="ftoc()" class="buttonF">
+                    <input type="button" value=" 0 " name="0" onclick="update(0)" class="buttonB">
+                    <input type="button" value=" °f " name="cf" onclick="ctof()" class="buttonF">
+                    <input type="button" value=" + " name="+" onclick="update('+')" class="buttonM">
+                    <input type="button" value="( )" name="()" onclick="zagrade()" class="buttonM">
+                    <input type="button" value=" = " name="=" onclick="rezultat('=')" class="buttonZ">
+                    <input type="button" value=" ← " name="(bs)" onmousedown="myFunction()" class="buttonM">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <script src="script.js"></script>
+    <script src="colorChangeFORMA.js"></script>
+</body>
+</html>
