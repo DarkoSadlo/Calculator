@@ -7,6 +7,7 @@ This project is simple calculator. Purpose of project is learning to code
 ![](calc.gif)
 
 Background color change
+
 ![](calccol.jpg)
   
 ## Technologies
@@ -62,4 +63,7 @@ Project is inspirated by my first calculator from 1979. "Digitron Buje DB-812" M
 
 Special thanks to David Ruzicic.
 
+## Support
+Any recommendations or suggestion are welcome...
+All comments with :beers: are more than welcome!
 
