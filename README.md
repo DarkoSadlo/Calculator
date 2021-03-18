@@ -4,9 +4,10 @@
 This project is simple calculator. Purpose of project is learning to code
 
 ## Demo	
-<p align="center" img src="calcol.jpg"></p>
+![](calc.gif)
+
 Background color change
-  ![](calccol.jpg)
+![](calccol.jpg)
   
 ## Technologies
 Project is created with:
