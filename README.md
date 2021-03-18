@@ -65,5 +65,6 @@ Special thanks to David Ruzicic.
 
 ## Support
 Any recommendations or suggestion are welcome...
-All comments with :beers: are more than welcome!
+
+All comments with  :beers:  are more than welcome!
 
