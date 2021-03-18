@@ -4,6 +4,8 @@
 This project is simple calculator. Purpose of project is learning to code
 
 ## Demo	
+<p align="center">![](calc.gif)</p>
+Background color change
   ![](calccol.jpg)
   
 ## Technologies
@@ -55,6 +57,7 @@ Code for convert Fahrenheit to Celsius
 Project is: _in progress_
 
 ## Inspiration
+Project is inspirated by my first calculator from 1979. "Digitron Buje DB-812" Made in Yugoslavia.
 Special thanks to David Ruzicic.
 
-Project is inspirated by my first calculator from 1979. "Digitron Buje DB-812" Made in Yugoslavia.
+
