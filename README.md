@@ -4,7 +4,7 @@
 This project is simple calculator. Purpose of project is learning to code
 
 ## Demo	
-  ![](calc.gif)
+  ![](calccol.gif)
   
 ## Technologies
 Project is created with:
