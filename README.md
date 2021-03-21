@@ -1,7 +1,7 @@
 <h1 align="center" style="color:blue;">Calculator</h1>
 
 ## General info
-This project is simple calculator. Purpose of project is learning to code
+This project is a simple calculator. Purpose of this project is learning how to code.
 
 ## Demo	
 ![](calc.gif)
@@ -11,7 +11,7 @@ Background color change
 ![](calccol.jpg)
   
 ## Technologies
-Project is created with:
+The project is created with:
 * HTML5
 * CSS
 * JS
@@ -26,7 +26,7 @@ JS code for turn ON or OFF
 ```js
 function prikazi() {
     var x = document.getElementById("ima");
-    if (x.style.display === "block") {  //check is there calc on screen
+    if (x.style.display === "block") {  //check if there is calc on the screen
         x.style.display = "none";  //if yes, display none
     } else {
         x.style.display = "block";  //if no, show calc
@@ -34,7 +34,7 @@ function prikazi() {
 }
 ```
 ### <h4>Fahrenheit to Celsius</h4>
-Code for convert Fahrenheit to Celsius
+Code for converting Fahrenheit to Celsius
  ```js
   function ctof() {
     var x = document.forma.screen.value  //add input value to variable x
