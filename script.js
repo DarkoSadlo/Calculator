@@ -30,18 +30,18 @@ function brisi() {
     document.forma.screen.value = " ";  //clear all
 }
 //---------SQUARE FUNCTION
-function kvadrat() {
+function sq() {
     var x = document.forma.screen.value  //add input value to variable x
     document.forma.screen.value = Math.pow(x, 2); //math square function
 }
 //---------SQUARE ROOTS FUNCTION
-function kor2() {
+function sqr2() {
     var x = document.forma.screen.value  //add input value to variable x
     var f = Math.sqrt(x)  //math square root function
     document.forma.screen.value = (f);  //show result
 }
 //---------CUBE ROOT FUNCTION
-function kor3() {
+function sqr3() {
     var x = document.forma.screen.value  //add input value to variable x
     var f = Math.cbrt(x)  //math cube root function
     document.forma.screen.value = (f);  //show result
@@ -58,7 +58,7 @@ function fac() {
     document.forma.screen.value = (f);  //show result
 }
 //------MATH CUBE FUNCTION
-function kub() {
+function cub() {
     var x = document.forma.screen.value  //add input value to variable x
     var f;  //add variable f
     f = x * x * x; //multiple variable x three time and put result in variable f
@@ -100,7 +100,7 @@ function backspace() {
 }
 //-----PARENTHESES
 var i = 0;
-function zagrade() {
+function brackets() {
     
     if (i == 0) {  //check is parentheses open
         document.forma.screen.value += '('; //open parenthese if there are no opend parenthese
